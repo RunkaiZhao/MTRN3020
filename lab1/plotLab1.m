@@ -1,0 +1,25 @@
+clear;
+load("z5146927.mat");
+a = CartPositions;
+figure(1);
+plot(a(:,1),a(:,2), '-');
+hold on;
+plot(a(:,1),a(:,3), '-');
+hold on;
+plot(a(:,1),a(:,4), '-');
+hold on;
+legend('Setpoint', 'ExperimentalData', 'SimulatedData');
+title('Cart Position Variation');
+xlabel('Time(sec)');
+ylabel('CartPosition(mm)');
+
+b = CartAngles;
+figure(2);
+plot(b(:,1), b(:,2));
+hold on;
+plot(b(:,1), b(:,3));
+hold on;
+legend('ExperimentalData', 'SimulatedData');
+title('Pendulum Angle Variation');
+xlabel('Time(sec)');
+ylabel('CartAngle(deg)');
