@@ -1,2 +1,3 @@
 # MTRN3020
 Modelling and Control of Mechatronic Systems
+This subject teaches the student how to design and develop a control system in discrete-time domain to be used in motion control systems. Material covered includes; Revision of continuous-time control systems and design tools such as root locus, bode methods and Laplace transform. Starred Laplace transforms, z-transforms. Discretising continuous-time systems. Stability, speed of response and accuracy. Controller design using; root-locus method, direct and indirect analytical methods and bode methods. Observability, controllability. State estimators and design of observers.
